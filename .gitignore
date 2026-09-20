@@ -1,0 +1,15 @@
+# Не дать случайно закоммитить исходники в публичный репозиторий
+*.py
+*.pyc
+__pycache__/
+.venv/
+venv/
+build/
+dist/
+*.spec
+*.log
+.env
+foodbot_stats.txt
+
+# EXE в git-истории не храним — только как файлы в GitHub Releases (Upload asset)
+*.exe
